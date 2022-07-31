@@ -33,9 +33,6 @@
     "typescript": "4.7.4"
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx}": [
-      "yarn tsc --noEmit"
-    ],
     "src/**/*.{js,jsx,ts,tsx}": [
       "eslint --max-warnings=0",
       "prettier -w"
